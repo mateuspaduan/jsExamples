@@ -11,7 +11,7 @@ var Aluno = function (nome) {
     this.periodo++;
   }
 
-  this.alteraCurso = (ref) => {
+  /*this.alteraCurso = (ref) => {
     var _default = "Eng. de Computacao";
     switch (ref) {
       case 1:
@@ -30,5 +30,5 @@ var Aluno = function (nome) {
         this.curso = _default;
         break;
     }
-  }
+  }*/
 }

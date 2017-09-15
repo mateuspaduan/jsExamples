@@ -4,4 +4,7 @@ Aluno.prototype.popupExibeNome = (nome) => {
   alert('O nome passado por parametro foi: ' + nome);
 }
 
-Aluno.prototype.alteraCurso = undefined;
+Aluno.prototype.alteraCurso = () => {
+
+  return "oi";
+};
